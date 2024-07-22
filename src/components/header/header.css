@@ -15,7 +15,9 @@
 
 .headerTitleSm{
     position: absolute;
+    margin-top: 20px;
     top: 18%;
+    left: 49%;
     font-size: 20px;
 }
 
@@ -76,6 +78,7 @@
     .headerTitleSm {
         font-size: 16px;
         top: 10%;
+        margin-top: 8px;
     }
 
     .headerTitleLg {
@@ -98,7 +101,8 @@
     .headerTitleSm {
         font-size: 12px;
         top: 5%;
-        margin-bottom: 2px;
+      
+        margin-top: 3px;
     }
 
     .headerTitleLg {
