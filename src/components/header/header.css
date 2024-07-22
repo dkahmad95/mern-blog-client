@@ -10,6 +10,7 @@
     align-items: center;
     font-family: 'Lora', serif;
     color: #444;
+    
 }
 
 .headerTitleSm{
@@ -85,7 +86,7 @@
     .headerImg {
         height: 300px;
         margin-top: 40px;
-
+      
     }
 }
 
@@ -97,6 +98,7 @@
     .headerTitleSm {
         font-size: 12px;
         top: 5%;
+        margin-bottom: 2px;
     }
 
     .headerTitleLg {

@@ -28,22 +28,22 @@ const TopBar = () => {
       <div className="topCenter">
         <ul className="topList">
           <li className="topListItem">
-            <Link className="link" to={"/"}>
+            <Link className="link1" to={"/"}>
               HOME
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to={"/about"}>
+            <Link className="link1" to={"/about"}>
               ABOUT
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to={"/contact"}>
+            <Link className="link1" to={"/contact"}>
               CONTACT
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to={"write"}>
+            <Link className="link1" to={"write"}>
               WRITE
             </Link>
           </li>
@@ -60,12 +60,12 @@ const TopBar = () => {
         ) : (
           <ul className="topList">
             <li className="topListItem">
-              <Link className="link" to={"login"}>
+              <Link className="link1" to={"login"}>
                 LOGIN
               </Link>
             </li>
             <li className="topListItem">
-              <Link className="link" to={"/register"}>
+              <Link className="link1" to={"/register"}>
                 REGISTER
               </Link>
             </li>
