@@ -1,0 +1,182 @@
+.settings {
+  display: flex;
+}
+
+.settingsWrapper {
+  flex: 9;
+  padding: 20px;
+}
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settingsUpdateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: lightcoral;
+}
+
+.settingsDeleteTitle {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.settingsPP > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.settingsPPIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: lightcoral;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.settingsForm > input {
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  width: max-content;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.passwordContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+ 
+}
+.passInput{
+   color: gray;
+  margin: 10px 0;
+  height: 30px;
+  width: max-content;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+.passwordToggle {
+ 
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+  .settingsWrapper {
+    padding: 15px;
+  }
+
+  .settingsUpdateTitle {
+    font-size: 22px;
+  }
+
+  .settingsDeleteTitle {
+    font-size: 13px;
+  }
+
+  .settingsPP > img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .settingsPPIcon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .settingsForm > label {
+    font-size: 16px;
+  }
+
+  .settingsForm > input {
+    font-size: 14px;
+  }
+
+  .settingsSubmit {
+    width: 100px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .settingsWrapper {
+    padding: 10px;
+  }
+
+  .settingsUpdateTitle {
+    font-size: 18px;
+  }
+
+  .settingsDeleteTitle {
+    font-size: 12px;
+  }
+
+  .settingsPP > img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .settingsPPIcon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .settingsForm > label {
+    font-size: 14px;
+  }
+
+  .settingsForm > input {
+    font-size: 12px;
+  }
+
+  .settingsSubmit {
+    width: 80px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,129 @@
+/* General Styles */
+.sidebar {
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    color: #222;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sidebarItem > img {
+    margin-top: 15px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.sidebarItem > p {
+    padding: 20px;
+}
+
+.sidebarList {
+    list-style: none;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.sidebarListItem {
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sidebarSocial {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .sidebarTitle {
+        font-size: 10px;
+    }
+
+    .sidebarItem > img {
+        width: 80%;
+        max-width: 200px;
+    }
+
+    .sidebarItem > p {
+        padding: 10px;
+        font-size:small;
+    }
+
+    .sidebarListItem {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 550px) {
+ .sidebar {
+        display: none; 
+    }}
+@media (max-width: 480px) {
+   
+
+    .sidebarTitle {
+        font-size: 8px;
+    }
+
+    .sidebarItem > img {
+        width: 70%;
+        max-width: 150px;
+    }
+
+    .sidebarItem > p {
+        padding: 2px;
+        font-size:x-small;
+    }
+
+    .sidebarSocial {
+        flex-direction: column;
+    }
+
+    .sidebarIcon {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+}

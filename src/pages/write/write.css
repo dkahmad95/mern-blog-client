@@ -1,0 +1,132 @@
+.write {
+    padding-top: 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.writeImg {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+    
+}
+
+.writeForm {
+    position: relative;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 15px;
+}
+
+.writeFormGroup {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.writeIcon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: rgb(121, 118, 118);
+    cursor: pointer;
+}
+
+.writeInput {
+    font-size: 24px;
+    border: none;
+    padding: 15px;
+    width: 100%;
+}
+
+
+.writeInput:focus {
+    outline: none;
+}
+
+.writeText {
+    font-size: 18px;
+    height: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.writeSubmit {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    background-color: teal;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .write{
+    flex-direction: column;
+    gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .writeImg {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .writeInput {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .writeText {
+        font-size: 16px;
+    }
+
+    .writeSubmit {
+        bottom: 10px;
+        right: 10px;
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .writeImg {
+        width: 100%;
+        height: auto;
+    }
+
+    .writeInput {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .writeText {
+        font-size: 14px;
+    }
+
+    .writeSubmit {
+        bottom: 5px;
+        right: 5px;
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
